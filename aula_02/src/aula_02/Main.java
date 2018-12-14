@@ -48,6 +48,12 @@ public class Main {
 				System.out.println("Você correu! O jogo acabou!");
 			}
 			
+		}else if(comando.equals("s")) {
+			System.out.println("Você foi para outro mapa!");
+		}else if(comando.equals("a") || comando.equals("d")) {
+			System.out.println("Você desviou de um inimigo");
+			System.out.println("Você caiu do penhasco :( ");
+			System.out.println("Você perdeu!");
 		}
 			
 		
